@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>
+        <%= title %>
+    </h1>
+    <ul>
+        <% for (var i=0;i<jokes.length; i++){%>
+            <li>
+                <%=jokes[i]%>
+            </li>
+            <%}%>
+    </ul>
+    <a href="/">Back</a>
+</body>
+
+</html>
